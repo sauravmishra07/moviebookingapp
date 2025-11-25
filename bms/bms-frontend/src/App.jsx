@@ -3,6 +3,8 @@ import Footer from "./shared/Footer"
 import Header from "./shared/Header"
 import Home from "./pages/Home"
 import Movies from "./pages/Movies"
+import MovieDetails from "./pages/MovieDetails"
+import Profile from "./pages/Profile"
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
             <Route path="/" element={<Home/> } />
             <Route path="/profile/:id" element={<h1>profile</h1> } />
             <Route path="/movies" element={<Movies/> } />
+             <Route path="/movie/detail" element={<MovieDetails/> } />
+             <Route path="/profile" element={<Profile/>}/>
           </Routes>
         </main>
         <Footer/>

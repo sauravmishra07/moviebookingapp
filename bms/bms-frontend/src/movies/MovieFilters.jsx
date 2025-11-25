@@ -34,7 +34,7 @@ const MovieFilters = () => {
             {/* Filter Panel */}
             <div
                 className={`
-                    fixed md:static top-0 left-0 h-full md:h-fit
+                    fixed top-0 left-0 h-full md:h-fit
                     w-[85%] sm:w-[70%] md:w-1/4
                     bg-gray-50 md:bg-transparent
                     p-4 space-y-6 

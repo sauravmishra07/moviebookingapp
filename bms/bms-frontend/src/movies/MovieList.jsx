@@ -37,6 +37,7 @@ const MovieList = () => {
                     <MovieCard key={i} movie={movie} />
                 ))}
             </div>
+            {/*  */}
         </div>
     )
 }

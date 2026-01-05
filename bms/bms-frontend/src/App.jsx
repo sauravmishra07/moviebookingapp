@@ -19,6 +19,7 @@ function App() {
             <Route path="/movies" element={<Movies/> } />
              <Route path="/movie/detail" element={<MovieDetails/> } />
              <Route path="/profile" element={<Profile/>}/>
+             <Route path="/about" element={<h1>about testing page</h1>}/>
           </Routes>
         </main>
         <Footer/>
